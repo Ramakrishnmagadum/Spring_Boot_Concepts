@@ -1,0 +1,14 @@
+package com.sample.CustomProfile;
+
+import org.springframework.stereotype.Component;
+
+@Component
+@TeacherCustomProfile
+public class TeacherBean {
+
+	public TeacherBean() {
+		super();
+		System.out.println("#TeacherBean");
+	}
+
+}

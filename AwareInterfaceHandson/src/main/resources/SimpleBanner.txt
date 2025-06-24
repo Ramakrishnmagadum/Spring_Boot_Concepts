@@ -1,0 +1,7 @@
+=====================================
+         Spring Boot Application
+=====================================
+Spring Boot Version : ${spring-boot.version}
+Java Version        : ${java.version}
+Application Started : Welcome to Ram's App!
+=====================================

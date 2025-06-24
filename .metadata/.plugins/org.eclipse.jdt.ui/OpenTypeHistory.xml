@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=FirstSpringBootProject/C:\/Users\/ramakrishnamagadum.k\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/2.7.18\/spring-boot-2.7.18.jar&lt;org.springframework.boot.web.servlet.server(ServletWebServerFactory.class[ServletWebServerFactory" modifiers="1537" timestamp="1748602272719"/>
+<typeInfo handle="=SampleSpringProject/src\/main\/java&lt;com.config{ControllerMapper.java[ControllerMapper" modifiers="1" timestamp="1748601116995"/>
+<typeInfo handle="=FirstSpringBootProject/C:\/Users\/ramakrishnamagadum.k\/.m2\/repository\/org\/springframework\/boot\/spring-boot-autoconfigure\/2.7.18\/spring-boot-autoconfigure-2.7.18.jar&lt;org.springframework.boot.autoconfigure.web.servlet(DispatcherServletAutoConfiguration.class[DispatcherServletAutoConfiguration" modifiers="33" timestamp="1748602273209"/>
+<typeInfo handle="=FirstSpringBootProject/C:\/Users\/ramakrishnamagadum.k\/.m2\/repository\/org\/springframework\/boot\/spring-boot-autoconfigure\/2.7.18\/spring-boot-autoconfigure-2.7.18.jar&lt;org.springframework.boot.autoconfigure.context(ConfigurationPropertiesAutoConfiguration.class[ConfigurationPropertiesAutoConfiguration" modifiers="33" timestamp="1748602273209"/>
+<typeInfo handle="=Profile_Example/C:\/Users\/ramakrishnamagadum.k\/.m2\/repository\/org\/postgresql\/postgresql\/42.2.27\/postgresql-42.2.27.jar&lt;org.postgresql(Driver.class[Driver" modifiers="33" timestamp="1749894907853"/>
+<typeInfo handle="=Profile_Example/C:\/Users\/ramakrishnamagadum.k\/.m2\/repository\/com\/mysql\/mysql-connector-j\/8.0.33\/mysql-connector-j-8.0.33.jar&lt;com.mysql.jdbc(Driver.class[Driver" modifiers="33" timestamp="1712050033540"/>
+</typeInfoHistroy>

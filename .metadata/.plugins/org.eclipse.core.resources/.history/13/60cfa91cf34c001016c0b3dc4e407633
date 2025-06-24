@@ -1,0 +1,12 @@
+package com.sample;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SecondConfig {
+
+	public SecondConfig() {
+		System.out.println("#SecondConfig");
+	}
+
+}

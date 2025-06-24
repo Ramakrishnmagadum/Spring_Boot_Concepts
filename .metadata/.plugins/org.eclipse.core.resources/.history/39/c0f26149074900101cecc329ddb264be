@@ -1,0 +1,21 @@
+package com.sample.Dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.sample.entites.Product;
+
+public class ProductDaoImpl implements ProductDao{
+
+	@Autowired
+	IConnection connection;
+	
+	public List<Product> getProducts() throws ClassNotFoundException, SQLException {
+		
+		connection.getConnection().prepareStatement("select * from xproduct");
+		return null;
+	}
+
+}

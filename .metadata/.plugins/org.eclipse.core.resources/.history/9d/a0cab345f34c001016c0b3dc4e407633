@@ -1,0 +1,19 @@
+package com.sample;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.Profile;
+
+@Configuration
+@Import(value= {SecondConfig.class})
+@Profile("first")
+//@ComponentScan
+public class MyConfig {
+
+	public MyConfig() {
+		System.out.println("#MyConfig");
+	}
+	
+	
+
+}

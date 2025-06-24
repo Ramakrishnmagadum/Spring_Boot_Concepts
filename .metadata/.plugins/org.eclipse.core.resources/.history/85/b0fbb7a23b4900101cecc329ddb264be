@@ -1,0 +1,17 @@
+package com.sample;
+
+import java.sql.SQLException;
+
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
+
+import com.sample.Dao.ProductDaoImpl;
+
+public class App {
+	public static void main(String[] args) throws BeansException, ClassNotFoundException, SQLException {
+		AnnotationConfigApplicationContext container = new AnnotationConfigApplicationContext(MyConfig.class);
+		container.getBean("productDaoImpl", ProductDaoImpl.class).getProducts();
+	}
+}

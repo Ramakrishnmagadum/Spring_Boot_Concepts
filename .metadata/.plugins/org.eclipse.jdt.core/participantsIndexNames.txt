@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1961348151.index
+\SpringBootMannulCreation\src\main\resources
+D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\612298820.index
+\SpringBootMannualCreation
+D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1403128066.index
+\SampleSpringProject\src\main\resources

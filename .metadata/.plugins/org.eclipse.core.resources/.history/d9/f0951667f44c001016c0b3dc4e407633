@@ -1,0 +1,30 @@
+package com.sample;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.Profile;
+
+@Configuration
+
+//@Import annotation is used to import additional configuration classes or regular component classes into the Spring application context.
+//@componentScan is removed then this is way to scan or import specific Config Files)  Used to import Config files in main config file......
+//What Can You Import?
+//1.  You can pass the following types to @Import:
+//2.  @Configuration classes
+//3.  Regular component classes
+//4.  ImportSelector implementations
+//5.  ImportBeanDefinitionRegistrar implementations
+
+@Import(value= {SecondConfig.class})
+@Profile("first")
+@ComponentScan
+public class MyConfig {
+
+	public MyConfig() {
+		System.out.println("#MyConfig");
+	}
+	
+	
+
+}
