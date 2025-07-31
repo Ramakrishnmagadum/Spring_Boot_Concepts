@@ -63,6 +63,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.sample.SpringSecurity1.SpringSecurity1"/>
 			<item value="com.sample.SpringProject.Profile_Example"/>
 			<item value="com.sample.SpringProject.PropertySourceone"/>
 			<item value="com.sample.SpringProject.SpringBootMannulCreation"/>
@@ -70,9 +71,11 @@
 			<item value="com.sample.SpringProject.SampleSpringProject"/>
 		</list>
 		<list key="groupId">
+			<item value="com.sample.SpringSecurity1"/>
 			<item value="com.sample.SpringProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpringSecurity1"/>
 			<item value="Profile_Example"/>
 			<item value="PropertySourceone"/>
 			<item value="SpringBootMannulCreation"/>

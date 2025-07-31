@@ -1,9 +1,0 @@
-package com.sample.Dao;
-
-import java.util.List;
-
-import com.sample.entites.Product;
-
-public interface ProductDao {
-  public List<Product> getProducts();
-}
