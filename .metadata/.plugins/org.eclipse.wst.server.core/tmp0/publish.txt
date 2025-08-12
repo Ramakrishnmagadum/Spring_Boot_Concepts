@@ -1,3 +1,5 @@
 #Tomcat publish data
-#Tue Jul 29 22:01:08 IST 2025
+#Mon Aug 11 13:14:00 IST 2025
 org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\ramakrishnamagadum.k\\.m2\\repository\\org\\springframework\\spring-web\\5.2.3.RELEASE\\spring-web-5.2.3.RELEASE.jar=WEB-INF/lib/spring-web-5.2.3.RELEASE.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\ramakrishnamagadum.k\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper\\9.0.29\\tomcat-jasper-9.0.29.jar=WEB-INF/lib/tomcat-jasper-9.0.29.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\ramakrishnamagadum.k\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\9.0.30\\tomcat-embed-websocket-9.0.30.jar=WEB-INF/lib/tomcat-embed-websocket-9.0.30.jar

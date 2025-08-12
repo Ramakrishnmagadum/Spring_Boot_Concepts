@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="652" key="DIALOG_X_ORIGIN"/>
+		<item value="357" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="retrieveUser" key="selection"/>
+		<item value="eventPublisher" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
-		<item value="false" key="wholeword"/>
+		<item value="true" key="wholeword"/>
 		<list key="findhistory">
-			<item value="retrieveUser"/>
-			<item value="authenticationbuilder"/>
-			<item value="authenticationbuilder&apos;"/>
-			<item value="@Autowired"/>
-			<item value="jdbcTemplate"/>
-			<item value="CustomerDAOImpl object is created...."/>
-			<item value="authenticate"/>
-			<item value="providers"/>
-			<item value="ProviderManager"/>
-			<item value="setContinueChainBeforeSuccessfulAuthentication"/>
-			<item value="continueChainBeforeSuccessfulAuthentication"/>
-			<item value="requiresAuthenticationRequestMatcher"/>
-			<item value="create"/>
-			<item value="userNotFoundEncodedPassword"/>
-			<item value="loadUsersByUsername"/>
+			<item value="eventPublisher"/>
+			<item value="details"/>
+			<item value="tomcat-embed-jasper"/>
+			<item value="otomcat-embed-jasper"/>
+			<item value="username"/>
+			<item value="update"/>
+			<item value="sql"/>
+			<item value="format"/>
+			<item value="user"/>
+			<item value="updating entity"/>
+			<item value="flushEverythingToExecutions"/>
+			<item value="flushEntities"/>
+			<item value="prepareCollectionFlushes"/>
+			<item value="prepareEntityFlushes"/>
+			<item value="dirty"/>
 		</list>
 		<list key="replacehistory">
 		</list>

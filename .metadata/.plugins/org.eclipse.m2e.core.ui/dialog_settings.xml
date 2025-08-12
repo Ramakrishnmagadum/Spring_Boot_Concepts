@@ -25,6 +25,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\ramakrishnamagadum.k\Downloads\SpringSecurityUserLockOutSample\SpringSecurityUserLockOutSample"/>
+			<item value="C:\Users\ramakrishnamagadum.k\Downloads\SpringSecurityUserLockOut2\SpringSecurityUserLockOut2"/>
+			<item value="C:\Users\ramakrishnamagadum.k\Downloads\SpringSecurityUserLockOut\SpringSecurityUserLockOut"/>
+			<item value="C:\Users\ramakrishnamagadum.k\Downloads\SpringSecurityUserLockOut"/>
 			<item value="D:\Workspace\SpringBoot\FirstSpringBootProject"/>
 			<item value="C:\Users\ramakrishnamagadum.k\Downloads\FirstSpringBootProject (1)\FirstSpringBootProject"/>
 		</list>
@@ -50,6 +54,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Workspace\SpringBoot\SpringSecurityCustomSchemaLogin\src\main\java\com\springsecurity\MyWebAppInitializer.java"/>
 			<item value="D:\Workspace\SpringBoot\SpringBootMannulCreation"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -63,24 +68,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.sample.SpringSecurity1.SpringSecurity1"/>
-			<item value="com.sample.SpringProject.Profile_Example"/>
-			<item value="com.sample.SpringProject.PropertySourceone"/>
-			<item value="com.sample.SpringProject.SpringBootMannulCreation"/>
-			<item value="com.sample.SpringProject.SpringBootMannualCreation"/>
-			<item value="com.sample.SpringProject.SampleSpringProject"/>
+			<item value="com.userlockout.SpringSecurityUserLockout"/>
 		</list>
 		<list key="groupId">
-			<item value="com.sample.SpringSecurity1"/>
-			<item value="com.sample.SpringProject"/>
+			<item value="com.userlockout"/>
 		</list>
 		<list key="artifactId">
-			<item value="SpringSecurity1"/>
-			<item value="Profile_Example"/>
-			<item value="PropertySourceone"/>
-			<item value="SpringBootMannulCreation"/>
-			<item value="SpringBootMannualCreation"/>
-			<item value="SampleSpringProject"/>
+			<item value="SpringSecurityUserLockout"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

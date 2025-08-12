@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringSecurityCustomSchemaLogin" path="/SpringSecurityCustomSchemaLogin" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringSecurityCustomSchemaLogin"/></Host>
+      <Context docBase="D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringSecurityCustomSchemaLogin" path="/SpringSecurityCustomSchemaLogin" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringSecurityCustomSchemaLogin"/><Context docBase="D:\Workspace\SpringBoot\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringSecurityUserLockout" path="/SpringSecurityUserLockout" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringSecurityUserLockout"/></Host>
     </Engine>
   </Service>
 </Server>
