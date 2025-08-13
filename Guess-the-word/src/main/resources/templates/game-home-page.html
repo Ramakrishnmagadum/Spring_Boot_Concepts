@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Introduced the thymeleaf for UI Design  -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Game Home Page</title>
+<script th:inline="javascript">
+//window.onload--->  This function will call once Loading done completelly 
+	window.onload= function checkIfGameOver(){
+		var numberoftries=[[${count}]];
+		if(numberoftries==0){
+		alert("Game Over");
+		document.getElementById('try').disabled=true;
+		document.getElementById('guesseschar').disabled=true;
+		}
+	}
+	
+	function reload(){
+// 		window.location.href=""    --->  This will redirect To given URL ....and Based on that URL it will call @***Mapping Method
+		window.location.href="http://localhost:8080/reload"
+	}
+
+</script>
+
+</head>
+<body>
+	<div>
+		<h1 align="center">Guess the word</h1>
+		<!-- th:text="${randomword}"   This will take dynamic randomword  from the Model Object..-->
+		<h2 align="center" th:text="${randomword}">Guess the word</h2>
+		
+
+		<div align="right">
+			Remaining chance : <span th:text="${count}"></span>
+		</div>
+		<div align="right">
+			<input type="submit" value="Reload" id="reload" onclick="reload();">
+		</div>
+		
+	</div>
+	<hr>
+	<div align="center">
+		<form action="/game-home">
+			<label>Guess the Char :</label> <input type="text" name="guesseschar" id="guesseschar">
+			<input type="submit" value="Try" id="try" > <span
+				th:text="${successmsg}">successmsg</span>
+
+		</form>
+	</div>
+</body>
+</html>
