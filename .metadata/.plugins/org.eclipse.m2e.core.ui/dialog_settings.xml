@@ -25,6 +25,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Workspace\SpringBoot\MultiDataSourceJPA"/>
+			<item value="C:\Users\ramakrishnamagadum.k\Downloads\CodeCheck\CodeCheck"/>
+			<item value="D:\Workspace\SpringBoot\SpringBoot_JDBC_Internal"/>
 			<item value="D:\Workspace\SpringBoot\Guess-the-word"/>
 			<item value="C:\Users\ramakrishnamagadum.k\Downloads\SpringSecurityUserLockOutSample\SpringSecurityUserLockOutSample"/>
 			<item value="C:\Users\ramakrishnamagadum.k\Downloads\SpringSecurityUserLockOut2\SpringSecurityUserLockOut2"/>

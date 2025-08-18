@@ -6,12 +6,19 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="eventPublisher" key="selection"/>
+		<item value="dao" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="dao"/>
+			<item value="productDAO"/>
+			<item value="h2"/>
+			<item value="ddl"/>
+			<item value="pooled"/>
+			<item value="DataSourceAutoConfiguration"/>
+			<item value="datasourceauto"/>
 			<item value="eventPublisher"/>
 			<item value="details"/>
 			<item value="tomcat-embed-jasper"/>
@@ -20,13 +27,6 @@
 			<item value="update"/>
 			<item value="sql"/>
 			<item value="format"/>
-			<item value="user"/>
-			<item value="updating entity"/>
-			<item value="flushEverythingToExecutions"/>
-			<item value="flushEntities"/>
-			<item value="prepareCollectionFlushes"/>
-			<item value="prepareEntityFlushes"/>
-			<item value="dirty"/>
 		</list>
 		<list key="replacehistory">
 		</list>
