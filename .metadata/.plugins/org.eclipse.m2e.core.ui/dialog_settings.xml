@@ -25,6 +25,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\Workspace\SpringBoot\RepositoryOrComponentAnnotation"/>
 			<item value="D:\Workspace\SpringBoot\MultiDataSourceJPA"/>
 			<item value="C:\Users\ramakrishnamagadum.k\Downloads\CodeCheck\CodeCheck"/>
 			<item value="D:\Workspace\SpringBoot\SpringBoot_JDBC_Internal"/>
